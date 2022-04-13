@@ -25856,12 +25856,12 @@ function testSpeech() {
   
   recognition.onaudiostart = function(event) {
       //Fired when the user agent has started to capture audio.
-      console.log('SpeechRecognition.onaudiostart');
+      //console.log('SpeechRecognition.onaudiostart');
   }
   
   recognition.onaudioend = function(event) {
       //Fired when the user agent has finished capturing audio.
-      console.log('SpeechRecognition.onaudioend');
+      //console.log('SpeechRecognition.onaudioend');
   }
   
   recognition.onend = function(event) {
